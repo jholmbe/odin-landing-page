@@ -2,33 +2,60 @@
     font-family: Int;
     src: url(fonts/static/Inter-*);
 }
+/*section: css elements*/
 body {
     margin: 0;
 }
+a {
+    text-decoration: none;
+    color: white;
+}
 
+/*section: header*/
 .header {
     height: 72px;
-    margin: 0px;
-    padding: 0px;
-    border: 0px;
-
-    font-family: Int;
-    color: white;
-    background-color: #59981A;
+    color: #F9FAF8;
+    background-color: #1F2937;
 
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
-.links {
-    font-family: Int;
+.headlogo {
+    font-size: 24px;
+    font-weight: 700;
+}
+.headlinks {
     font-size: 18px;
     font-weight: 500;
     display: flex; 
     gap: 32px;
     
 }
-a {
-    text-decoration: none;
-    color: white;
+/*section: main*/
+.main {
+    height: 400px;
+    color: #F9FAF8;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 48px;
+}
+.maintext {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.title {
+    font-size: 48px;
+    font-weight: bolder;
+}
+.signup {
+    padding: 8px 16px;
+    border-radius: 8px;
+    background: royalblue;
+    border: 1px solid royalblue;
+    width: 67px;
 }
