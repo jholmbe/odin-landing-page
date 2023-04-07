@@ -4,12 +4,13 @@
 }
 /*section: css elements*/
 body {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 
+    Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin: 0;
 }
 a {
     text-decoration: none;
-    color: white;
+    color: #F9FAF8;
 }
 
 /*section: header*/
@@ -50,20 +51,20 @@ a {
     gap: 16px;
 }
 /*children of maintext*/
-.title { 
+.main .title { 
     font-size: 48px;
     font-weight: bolder;
     white-space: nowrap;
 }
-.description {
+.main .description {
     font-size: 18px;
     font-weight: 500;
 }
-.signup {
+.main .signup {
     padding: 8px 16px;
     border-radius: 8px;
-    background: royalblue;
-    border: 1px solid royalblue;    
+    background: #3882F6;
+    border: 1px solid #3882F6;    
     width: min-content;
     font-size: 18px;
     font-family: 'Times New Roman', Times, serif;
@@ -75,4 +76,39 @@ a {
     height: auto;
     border-color: #F9FAF8;
     border: 4px solid;
+}
+/* section 3: work */
+.work {
+    background-color: #F9FAF8;
+    color: #1F2937;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.work .title {
+    font-size: 36px;
+    font-weight: bolder;
+}
+.work .container {
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+}
+.work .info {
+    width: 182px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+.info > img {
+    height: 180px;
+    width: 180px;
+    border: 3px solid #3882F6;
+    border-radius: 8px;
+    display: flex;
 }
