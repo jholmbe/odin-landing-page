@@ -45,7 +45,7 @@ a {
     gap: 50px;
 }
 .maintext { /*main child 1, text element, 3 children*/
-    width: 500px;
+    width: 40%;
     display: flex;
     flex-direction: column;
     gap: 16px;
@@ -67,7 +67,8 @@ a {
     border: 1px solid #3882F6;    
     width: min-content;
     font-size: 18px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+     Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     white-space: nowrap; /*prevents whitespace wrap*/
 }
 
@@ -92,7 +93,8 @@ a {
     font-weight: bolder;
 }
 .work .container {
-    width: 900px;
+    border: 3px solid red;
+    width: 65%;
     display: flex;
     justify-content: space-between;
 }
@@ -111,4 +113,35 @@ a {
     border: 3px solid #3882F6;
     border-radius: 8px;
     display: flex;
+}
+/* section 4: quote */
+.quote {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    height: 300px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.quote .container {
+    border: 3px solid red;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+.quote p {
+    margin: 0;
+    border: 3px solid red;
+    font-size: 24px;
+    font-style: italic;
+    display: flex;
+}
+.quote .name {
+    border: 3px solid red;
+    font-size: 16px;
+    font-weight: bold;
+    white-space: wrap;
+    display: flex;
+    align-self:flex-end;
 }
